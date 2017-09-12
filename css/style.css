@@ -1,0 +1,50 @@
+.small{width: 10%;border: 1px solid red;}
+.book-page
+{
+	/*margin-top: 220px;*/
+	vertical-align: middle !important;
+}
+.book-hover 
+{
+    position:relative;
+    text-align: center!important;
+}
+.overlay {
+  position: absolute;
+    top: 51%;
+    left: 21px;
+    display: none;
+    width: 85%;
+    height: 36%;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.2);
+    animation: fadeInDown 2s;
+
+
+}
+ .book-hover:hover .overlay
+ {
+    display:block;
+   /* animation: zoomIn 0.5s;*/
+}
+/*.book-hover:hover
+{
+	background-color: rgb(0,0,0,0.72);
+
+}*/
+.img-hover:hover
+{
+	position: relative;
+    padding: 0px;
+    border: 1px solid blue;
+    background-color: black !improtant;
+}
+.book-btn
+{
+	margin-top: 20px
+}
+.book-button{    
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%);    
+}
